@@ -1,0 +1,19 @@
+{
+ "content": null,
+ "creation": "2025-03-03 15:45:04.496562",
+ "docstatus": 0,
+ "doctype": "Page",
+ "idx": 0,
+ "modified": "2025-03-03 15:45:04.496562",
+ "modified_by": "Administrator",
+ "module": "Lms Addon",
+ "name": "landing",
+ "owner": "Administrator",
+ "page_name": "landing",
+ "roles": [],
+ "script": null,
+ "standard": "Yes",
+ "style": null,
+ "system_page": 0,
+ "title": "Landing Page"
+}
