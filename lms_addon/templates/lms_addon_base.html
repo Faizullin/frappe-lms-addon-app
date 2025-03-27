@@ -4,7 +4,7 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>{% block title %}Lava Educational Website{% endblock %}</title>
+        <title>{% block title %}Virtual Kaf.{% endblock %}</title>
 
         <link
             href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap"
@@ -17,6 +17,14 @@
             href="/assets/lms_addon/m/assets/css/templatemo-lava.css">
         <link rel="stylesheet"
             href="/assets/lms_addon/m/assets/css/owl-carousel.css">
+
+        {% block favicon %}
+        <link
+            rel="shortcut icon"
+            href="{{ (favicon or "/assets/frappe/images/frappe-favicon.svg") | abs_url }}"
+            type="image/x-icon"
+        >
+        {% endblock %}
 
         {% block head_extra %}{% endblock %}
     </head>
@@ -62,7 +70,7 @@
                         <nav class="main-nav">
                             <!-- ***** Logo Start ***** -->
                             <a href="/" class="logo">
-                                Lava
+                                Virt Kaf
                             </a>
                             <!-- ***** Logo End ***** -->
                             <!-- ***** Menu Start ***** -->
